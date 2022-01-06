@@ -2,12 +2,11 @@
 
 body {
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 1440px;
   height: 1440px;
   padding: 50px;
-  border: 1px solid red;
 }
 
 .top-div {
@@ -37,8 +36,6 @@ nav {
   color: hsl(0, 0%, 100%);
   font-family: "Spartan", sans-serif;
   font-weight: 600;
-  margin: ;
-  padding-top: ;
 }
 
 a {
@@ -51,21 +48,36 @@ a {
   width: 400px;
   height: 537px;
   margin-left: 5px;
-  padding-left: 10px;
-  padding: top 100px;
+  padding-left: 150px;
+  padding-top: 200px;
   padding-bottom: 20px;
   background-color: white;
-  color: darkgrey hsl(0, 0%, 63%);
+  color: grey;
   float: left;
+}
+
+.hero-icon-short-arrows {
+  width: 50px;
+  height: 50px;
 }
 
 .txt h2 {
   color: black;
+  width: 300px;
+  font-size: 30px;
+  text-align: left;
+  color: hsl(0, 0%, 27%);
 }
 
 .txt h3 {
   text-transform: uppercase;
   letter-spacing: 1em;
+  float: left;
+}
+
+.hero-icon-arrow {
+  width: 50px;
+  height: 60px;
 }
 
 .bottom-div {
@@ -73,9 +85,11 @@ a {
   height: 500px;
   clear: left;
 }
-footer {
+
+/* footer h4 {
   background-color: darkmagenta;
-}
+  margin: 0px;
+} */
 
 #dark.footer-img {
   background-image: url("../img/image-about-dark.jpg");
@@ -93,6 +107,8 @@ footer {
   padding: 20px;
   float: left;
   height: 300px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 footer p {
   width: 510px;
@@ -106,4 +122,5 @@ footer p {
 
 .attribution {
   clear: both;
+  color: blueviolet;
 }
