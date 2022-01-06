@@ -1,0 +1,109 @@
+/* CSS style */
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 1440px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.top-div {
+  width: 1440px;
+  height: 543px;
+}
+
+.img {
+  background-image: url("../img/desktop-image-hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 700px;
+  float: left;
+}
+
+nav h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Spartan", sans-serif;
+  font-weight: 600;
+  margin: ;
+  padding-top: ;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none; /* no underline */
+  gap: 15px;
+}
+
+.txt {
+  width: 400px;
+  height: 537px;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding: top 100px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: darkgrey hsl(0, 0%, 63%);
+  float: left;
+}
+
+.txt h2 {
+  color: black;
+}
+
+.txt h3 {
+  text-transform: uppercase;
+  letter-spacing: 1em;
+}
+
+.bottom-div {
+  width: 1440px;
+  height: 500px;
+  clear: left;
+}
+footer {
+  background-color: darkmagenta;
+}
+
+#dark.footer-img {
+  background-image: url("../img/image-about-dark.jpg");
+  width: 300px;
+  margin-right: 5px;
+  padding: 20px;
+  float: left;
+  height: 300px;
+}
+
+#light.footer-img {
+  background-image: url("../img/image-about-light.jpg");
+  width: 300px;
+  margin-left: 5px;
+  padding: 20px;
+  float: left;
+  height: 300px;
+}
+footer p {
+  width: 510px;
+  margin: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 80px;
+  float: left;
+  height: 300px;
+}
+
+.attribution {
+  clear: both;
+}
