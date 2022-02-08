@@ -25,7 +25,7 @@
     </head>
 
     <div class="top-div">
-      <div class="img" id="innovative">
+      <div class="img" id="innovative"> 
         <header class="nav-links">
           <nav>
             <h3><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">room</a></h3>
@@ -52,14 +52,18 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
 
       <div class="hero-icon-short-arrows">
+        <button id ="backward-btn" onclick="last-page()">        
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-icon-short-arrows-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+      </button>
+
+  
+        <button id="forward-btn" onclick="next-page()">
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-icon-short-arrows-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </button>
       </div>
  
-        
       </div>
     </section>
 
@@ -87,5 +91,6 @@
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <!--The Frontendmentor title isn't showing on the page, not sure why-->
       Coded by <a href="#"></a>.
     </div>
+    <script src = "index.js"></script>
   </body>
 </html>
