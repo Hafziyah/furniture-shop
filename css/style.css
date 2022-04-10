@@ -1,53 +1,287 @@
 /* CSS style */
 
+*{
+  box-sizing: border-box;
+}
+  
+
+/*General styles*/
+
 body {
   margin: 0 auto;
-  /* display: flex;
-  flex-direction: column; */
   width: 1440px;
-  height: 1440px;
-  padding: 50px;
+  box-sizing:border-box;
+  height: auto;
+  
 }
 
-.top-div {
+.imgText{
+  display:flex;
+  flex-direction: row;
+  width: 90em;
+  height:25vh;
+  margin:1%;
+  padding:2%;
+}
+
+/* Heading */
+
+.imgText__header{
+  border: 2px solid red;
+  height: 65vh;
+
+  
+}
+
+#imgText__nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  color:hsl(0, 0%, 100%);
+  padding: 1rem;
+  margin-left: 5em;
+  font-family:'Spartan', sans-serif;
+  font-size: small;
+  width: 5em;
+  
+}
+
+
+#imgText__nav h1{
+  font-size: 2em;
+}
+
+ul{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /* padding-right:;
+  margin: */
+}
+
+li{
+  padding-top: 1.7em;
+}
+
+#imgText__nav a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 1em;
+  justify-content: space-around;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+
+
+
+/* background picture */
+
+#backgroundPic{
+  background-image: url("../img/desktop-image-hero-1.jpg");
+  background-repeat: no-repeat;
+  width:50em;
+  height: 44em;
+  border: 2px solid red;
+  /* margin:5%;
+  padding:5%; */
+
+}
+
+#backgroundPicA{
+  background-image: url("../img/desktop-image-hero-2.jpg");
+  background-repeat: no-repeat;
+  width:50em;
+  height: 44em;
+  border: 2px solid red;
+  
+}
+
+#backgroundPicM{
+  background-image: url("../img/desktop-image-hero-3.jpg");
+  background-repeat: no-repeat;
+  width:50em;
+  height: 44em;
+  border: 2px solid red;
+  
+
+  
+}
+#textSection__arrows{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0em;
+  margin-top: 2.5em;
+  
+}
+
+img#textSection__arrow{
+  margin: 1.6em;
+
+}
+
+
+#textSection__arrows-left{
+  width: 5em;
+  height: 5em;
+  background-color: black;
+  color: white;
+  margin-top: 0em;
+  margin-left: 0%;
+  
+}
+
+#textSection__arrows-right{
+  width: 5em;
+  height: 5em;
+  background-color: black;
+  color: white;
+  margin-top: 0em;
+  margin-left: 0%;
+
+}
+
+/* Description */
+.textSection{
+  width: 35em;
+  height: 40vh;
+  border: 2px solid red;
+  /* margin:15px; */
+  padding:6.25em 0em 0em 0em; 
+  margin-bottom: 0em;
+  margin-left: 0.2em;
+  padding-left: 7em;
+  padding-bottom: 5em;
+  background-color: white;
+  
+
+
+}
+  
+.textSection p{
+  width: 100%;
+  color: hsl(0, 0%, 63%);
+  
+  /* height: 65vh; */
+  /* text-align: center; */
+}
+
+
+.textSection h1{
+  font-family: "Spartan" sans-serif;
+  font-size: 3em;
+  width: 100%;
+  Color: hsl(0, 0%, 0%)
+  
+}
+
+#textSection__spacedText{
+  text-transform: uppercase;
+  letter-spacing: 1em;
+
+}
+
+
+
+
+
+
+/* Footer */
+
+ .footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90em;
+  height: 35vh;
+  margin-top:2.8em;
+  margin-left: 2.75em;
+
+} 
+
+#footer__darkImg{
+  background-image: url("../img/image-about-dark.jpg");
+  background-repeat: no-repeat;
+  width: 30%;
+
+}
+
+#footer__about{
+  width:35%;
+  padding: 0em;
+}
+
+#footer__lightImg{
+  width: 30%;
+  background-image: url("../img/image-about-light.jpg");
+  background-repeat: no-repeat;
+  margin-left: 1.8em;
+}
+
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+  
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+/* big screen css */
+/* Wrapper */
+/*@media screen and (min-width: 376px) {
+/* 
+  .imgText__header {
+     */
+
+    
+   
+
+
+
+/* -------------------NavBar---------------------------------- */
+
+/* .top-div {
   width: 1440px;
   height: 543px;
-}
+} */
 
-.img {
-  background-image: url("../img/desktop-image-hero-1.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 800px;
-  height: 700px;
-  float: left;
-}
-
-.img#chair {
+/* .img {
+ 
+ */
+/* .img#chair {
   background-image: url("../img/desktop-image-hero-3.jpg");
   background-size: cover;
   background-position: center;
   width: 800px;
   height: 700px;
   float: left;
-}
+} */
 
-.img#globally {
+/* .img#globally {
   background-image: url("../img/desktop-image-hero-2.jpg");
   background-size: cover;
   background-position: center;
   width: 800px;
   height: 700px;
   float: left;
-}
+} */
 
-nav h3 {
+/* nav h3 {
   /* color: hsl(0, 0%, 100%); */
-  font-weight: bold;
+  /* font-weight: bold;
   font-size: 25px;
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   align-items: center;
   font-size: 12px;
@@ -55,15 +289,15 @@ nav {
   font-family: "Spartan", sans-serif;
   font-weight: 600;
   display: flex;
-}
+} */
 
-a {
+/* a {
   color: hsl(0, 0%, 100%);
   text-decoration: none; /* no underline */
-  padding: 15px;
-}
+  /* padding: 15px; */
+/* } */ 
 
-.txt {
+/* .txt {
   width: 400px;
   height: 537px;
   margin-left: 5px;
@@ -73,8 +307,8 @@ a {
   background-color: white;
   color: grey;
   float: left;
-}
-
+} */
+/* 
 .hero-icon-short-arrows-dark {
   width: 70px;
   height: 70px;
@@ -89,47 +323,47 @@ a {
   background-color: darkgrey;
   color: white;
   margin-left: 0px;
-  padding-left: 0px;
-}
-
+  padding-left: 0px; */
+/* } */
+/* 
 .txt h2 {
   color: black;
   width: 300px;
   font-size: 30px;
   text-align: left;
   color: hsl(0, 0%, 27%);
-}
-
+} */
+/* 
 .txt h3 {
   text-transform: uppercase;
   letter-spacing: 1em;
   float: left;
-}
-
+} */
+/* 
 .hero-icon-arrow {
   width: 50px;
   height: 60px;
-}
-
+} */
+/* 
 .bottom-div {
   width: 1440px;
   height: 500px;
   clear: left;
-}
+} */
 
 /* footer h4 {
   background-color: darkmagenta;
   margin: 0px;
 } */
 
-#dark.footer-img {
+/* #dark.footer-img {
   background-image: url("../img/image-about-dark.jpg");
   width: 300px;
   margin-right: 5px;
   padding: 20px;
   float: left;
-  height: 300px;
-}
+  height: 300px; */
+/* }
 
 #light.footer-img {
   background-image: url("../img/image-about-light.jpg");
@@ -139,8 +373,8 @@ a {
   float: left;
   height: 300px;
   margin-top: 0px;
-  padding-top: 0px;
-}
+  padding-top: 0px; */
+/* }
 footer p {
   width: 510px;
   margin: 5px;
@@ -148,9 +382,9 @@ footer p {
   padding-right: 100px;
   padding-top: 80px;
   float: left;
-  height: 300px;
-}
+  height: 300px; */
+/* } */
 
-.attribution {
+/* .attribution {
   clear: both;
-}
+} */
