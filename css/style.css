@@ -27,7 +27,7 @@ body {
 /* Heading */
 
 .imgText__header{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 65vh;
 
   
@@ -85,7 +85,7 @@ li{
   background-repeat: no-repeat;
   width:50em;
   height: 44em;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* margin:5%;
   padding:5%; */
 
@@ -96,7 +96,7 @@ li{
   background-repeat: no-repeat;
   width:50em;
   height: 44em;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 }
 
@@ -105,7 +105,7 @@ li{
   background-repeat: no-repeat;
   width:50em;
   height: 44em;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 
   
@@ -148,7 +148,7 @@ img#textSection__arrow{
 .textSection{
   width: 35em;
   height: 40vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* margin:15px; */
   padding:6.25em 0em 0em 0em; 
   margin-bottom: 0em;
