@@ -20,6 +20,19 @@ body {
   
 }
 
+.innovative__page {
+  margin-bottom:30em;
+
+}
+
+.available__page{
+  margin-top: 20em;
+}
+
+.manufacture__page{
+  margin-top: 20em;
+}
+
 .imgText{
   display:flex;
   flex-direction: row;
@@ -119,7 +132,7 @@ li{
   display: flex;
   flex-direction: row;
   margin-bottom: 0em;
-  margin-top: 5em;
+  margin-top: 12em;
   
 }
 
@@ -181,7 +194,7 @@ img#textSection__arrow{
   font-size: 3em;
   width: 100%;
   Color: hsl(0, 0%, 0%);
-  padding-left: 7em;
+  padding-left: 2.2em;
   
 }
 
@@ -209,7 +222,7 @@ img#textSection__arrow{
   flex-wrap: wrap;
   width: 90em;
   height: 35vh;
-  margin-top:6.8em;
+  margin-top:26.5em;
   margin-left: 3.5em;
 
 } 
