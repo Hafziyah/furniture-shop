@@ -1,11 +1,16 @@
 /* CSS style */
 
+
 *{
   box-sizing: border-box;
 }
   
 
 /*General styles*/
+
+html{
+  font-size: 12px;;
+}
 
 body {
   margin: 0 auto;
@@ -114,7 +119,7 @@ li{
   display: flex;
   flex-direction: row;
   margin-bottom: 0em;
-  margin-top: 2.5em;
+  margin-top: 5em;
   
 }
 
@@ -152,8 +157,8 @@ img#textSection__arrow{
   /* margin:15px; */
   padding:6.25em 0em 0em 0em; 
   margin-bottom: 0em;
-  margin-left: 0.2em;
-  padding-left: 7em;
+  margin-left: 0em;
+  padding-left: 0em;
   padding-bottom: 5em;
   background-color: white;
   
@@ -164,6 +169,7 @@ img#textSection__arrow{
 .textSection p{
   width: 100%;
   color: hsl(0, 0%, 63%);
+  padding-left: 7em;
   
   /* height: 65vh; */
   /* text-align: center; */
@@ -174,13 +180,19 @@ img#textSection__arrow{
   font-family: "Spartan" sans-serif;
   font-size: 3em;
   width: 100%;
-  Color: hsl(0, 0%, 0%)
+  Color: hsl(0, 0%, 0%);
+  padding-left: 7em;
   
+}
+
+#textSection__discover h1{
+  margin-left:2em;
 }
 
 #textSection__spacedText{
   text-transform: uppercase;
   letter-spacing: 1em;
+  padding-left: 7em;;
 
 }
 
@@ -197,8 +209,8 @@ img#textSection__arrow{
   flex-wrap: wrap;
   width: 90em;
   height: 35vh;
-  margin-top:2.8em;
-  margin-left: 2.75em;
+  margin-top:6.8em;
+  margin-left: 3.5em;
 
 } 
 
@@ -211,7 +223,7 @@ img#textSection__arrow{
 
 #footer__about{
   width:35%;
-  padding: 0em;
+  padding: 2em;
 }
 
 #footer__lightImg{
