@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
   <!-- <link rel="stylesheet" type="text/css" href="./css/menu.css" media="screen"> -->
+
+  <script src="index.js" defer></script>
    
   <title>Frontend Mentor | Room homepage</title>
 </head>
@@ -23,9 +25,9 @@
   
         <!-- hamburger icon -->
   
-        <label for="hamburger">&#9776;</label>
+        <!-- <label for="hamburger">&#9776;</label>
         <input type="checkbox" id="hamburger" />
-  
+   -->
           <!-- menu items -->
   
             <div id="imgText__nav">
@@ -59,11 +61,11 @@
       <div id="textSection__spacedText">Shop now</div>
   
       <div id="textSection__arrows">
-        <div id="textSection__arrows-left">
+        <div id="textSection__arrows-left" style="color: white;" onclick="back();">
           <img src="./img/icon-angle-left.svg" alt="image of an arrow pointing left" id="textSection__arrow">
         </div> 
     
-        <div id="textSection__arrows-right">
+        <div id="textSection__arrows-right" style="color:blue" onclick="forward();">
           <img src="./img/icon-angle-right.svg" alt="image of an arrow pointing right" id="textSection__arrow">
         </div>
       </div>  
@@ -136,7 +138,7 @@
   
      <p> 
        With stores all over the world, it's easy for you to find furniture for your home or place of business. 
-       Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+       Locally, we're in most major cities throughout the country. Find the branch nearest you using our 
        store locator. Any questions? Don't hesitate to contact us today.
       </p>
   
@@ -271,10 +273,6 @@
 </section>
 
   
-
-
-
-
 
 
 </body>
